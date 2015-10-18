@@ -1,0 +1,1 @@
+from FlixsterQATestCase import FlixsterQATestCase
