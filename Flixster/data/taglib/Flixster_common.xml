@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- please change read, write or click operation in description with correct one. 
+Specify [unique varaible name] for read and write operation at location shown ...>@your_varible</tag> 
+For read operation this varible will be stored in run time with variable name junit:your_varible without @ symbol 
+ For write you must provide the your_variable value using dataset, var or direct within tag in the configuration -->
+<taglib name="filxster_common" description=" Give a brief description about this page">
+
+	<clickBuyAndRent description="Give a brief description about this injector what it should do">
+		<tag description=" Landing to home page" method="get" url="http://www.flixster.com/"/>
+		<tag description="click on Buy &amp; Rent"   tagname="a" havingAttribute="xpath:://*[@id=!page-home!]/DIV[1]/HEADER[1]/DIV[1]/NAV[1]/A[2]#href::https://video.flixster.com/buy#text::Buy &amp; Rent"></tag>
+	</clickBuyAndRent>
+	
+</taglib>
