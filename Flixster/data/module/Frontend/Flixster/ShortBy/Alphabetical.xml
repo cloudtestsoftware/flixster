@@ -109,7 +109,9 @@ Please reffer to your training manual or FAQ documents for details.  -->
 						     To learn more about how to use injector please look at FAQ -->
 							@taglib:filxster_common.clickBuyAndRent
 							@taglib:Alpha_Betical.Alpha_Betical_Descending
+							@taglib:filxster_common.clickBuyAndRent
 							@taglib:Alpha_Betical.Alpha_Betical_Ascending
+							
 							
 						</taglib>
 						

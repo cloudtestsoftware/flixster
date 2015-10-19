@@ -19,7 +19,7 @@
 	<Test name="Sort By: Alphabetical" 
 	    page="220B41DB1F3AAC4EE050B90A27936BF7" 
 	    env="demo" 
-	    browsers="chrome"
+	    browsers="ie"
 		baseurl="http://www.flixster.com" 
 		action="unit" 
 		overrideattributes="Runid 11FA4500DAE06542E050B90A27937FC2,FeatureId 0F7EADDBA92763F8E050B90A27932F90,MatrixId 0F7EADDBA94263F8E050B90A27932F90"
