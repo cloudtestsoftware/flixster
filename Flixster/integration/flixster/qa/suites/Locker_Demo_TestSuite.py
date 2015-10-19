@@ -10,7 +10,7 @@ def main():
     else:
         Locker.base_url="http://www.flixster.com"
         Locker.url_path=""
-        Locker.browserType="chrome"
+        Locker.browserType="firefox"
     
     suite = unittest.TestSuite()
     suite.addTest(Locker('test_Verify_Theater_showtimes'))

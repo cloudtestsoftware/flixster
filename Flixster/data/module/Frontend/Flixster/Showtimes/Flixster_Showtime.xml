@@ -1,26 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<page name="Flixster_Showtime" description="My Epic Name test">
+<page name="Flixster_Showtime" description="Flixster existing test script">
     
 	
 	<action  name="0F7EBF7FC7729895E050B90A27932F8D"  dataset="global:xls.flixster_showtime" description="Demo Test Suite">
 	   
 
-		<validator name="Step-1: Record and play 3 sites"  description="">
+		<validator name="Step-1: Flixster Showtime tests"  description="">
 			<command name="showtime" description="Python showtime test" logfolder="test-reports" logextension="xml">
-				 <windows>set PYTHONPATH=%PYTHONPATH%/Python27/site-packages;./integration</windows>
+				 <windows>set PYTHONPATH=%PYTHONPATH%;C:\automation\Python\Lib\site-packages;./integration</windows>
 				 <linux>PYTHONPATH=</linux>
 				 <mac>export PYTHONPATH=$PYTHONPATH:/Library/Python/2.7/site-packages:./integration</mac>
 				 <execute>python ./integration/flixster/qa/suites/Locker_Demo_TestSuite.py</execute>
 			</command>
 			
 			<assert name="Verify error" nodepath="testcase" indexpath="0" elements="error" values="null" datatype="String" operator="Eq" />
-		<!-- 
-			<assert name="Verify @link1 title" descriptor="VARCHAR" output="junit:v_verify_value" value="State or Province" operator="Has" /> 
-	        <assert name="Verify @link1 title" descriptor="VARCHAR" output="junit:v_verify_value" value="State or Province" operator="Has" /> 
-            <assert name="Verify @link2 title" descriptor="VARCHAR" output="junit:title2" value="@verifylink2" operator="Has" /> 
-            <assert name="Verify @link3 title" descriptor="VARCHAR" output="junit:title3" value="@verifylink3" operator="Has" />
-		-->	
+		
 		</validator>
 
 
