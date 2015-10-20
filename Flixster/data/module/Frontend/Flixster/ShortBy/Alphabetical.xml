@@ -12,7 +12,7 @@ Please reffer to your training manual or FAQ documents for details.  -->
 <page name="220B41DB1F3AAC4EE050B90A27936BF7" description="Sort By: Alphabetical">
 
 
-<action  name="220B37C443E38BBBE050B90A27936BF4"  dataset="global:xls.Your_XLS_File_Name" description="Alphabetical_Ascending">
+<action  name="220B37C443E38BBBE050B90A27936BF4"  dataset="global:xls.flixster_alphabetical" description="Alphabetical_Ascending">
 	   
 
 		<validator name="Step-1: Test Alphabetical Ascending"  description=" Write few word why you need this step">
@@ -55,7 +55,7 @@ Please reffer to your training manual or FAQ documents for details.  -->
 	</action>
 
 
-<action  name="220B37C443E48BBBE050B90A27936BF4"  dataset="global:xls.Your_XLS_File_Name" description="Alphabetical_descending">
+<action  name="220B37C443E48BBBE050B90A27936BF4"  dataset="global:xls.flixster_alphabetical" description="Alphabetical_descending">
 	   
 
 		<validator name="Step-1: Test Alphabetical descending"  description=" Write few word why you need this step">
